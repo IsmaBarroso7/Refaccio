@@ -1,10 +1,13 @@
 public class BarrosoIsmaelApp {
 
+	private static final int PRIMER = 10;
+	private static final int SEGON = 5;
+
 	public static void main(String[] args) {
 
 		//Declaramos las variables
-		int num1=10;
-		int num2=5;
+		int num1=PRIMER;
+		int num2=SEGON;
 
 		/*Realizamos las operaciones.
 		 * Tambien lo podemos guardar el resultado en variables. */
@@ -20,6 +23,5 @@ public class BarrosoIsmaelApp {
 
 		String msg4 = "El resultado de la división es ";
 		System.out.println(msg4+(num1/num2));
-
 	}
 }
