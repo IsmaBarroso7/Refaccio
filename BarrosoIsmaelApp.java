@@ -2,6 +2,7 @@ public class BarrosoIsmaelApp {
 
 	private static final int PRIMER = 10;
 	private static final int SEGON = 5;
+	private static String mesage_camp;
 
 	public static void main(String[] args) {
 
@@ -12,8 +13,8 @@ public class BarrosoIsmaelApp {
 		/*Realizamos las operaciones.
 		 * Tambien lo podemos guardar el resultado en variables. */
 
-		String mesage1 = "El resultado de la suma es ";
-		System.out.println(mesage1+(num1+num2));
+		mesage_camp = "El resultado de la suma es ";
+		System.out.println(mesage_camp+(num1+num2));
 
 		String msg2 = "El resultado de la resta es ";
 		System.out.println(msg2+(num1-num2));
@@ -23,5 +24,8 @@ public class BarrosoIsmaelApp {
 
 		String msg4 = "El resultado de la división es ";
 		System.out.println(msg4+(num1/num2));
+		
+
+		System.out.println("El resultado de la división es " + (num1/num2));
 	}
 }
