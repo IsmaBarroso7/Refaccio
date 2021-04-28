@@ -9,12 +9,17 @@ public class BarrosoIsmaelApp {
 		/*Realizamos las operaciones.
 		 * Tambien lo podemos guardar el resultado en variables. */
 
-		System.out.println("El resultado de la suma es "+(num1+num2));
+		String mesage1 = "El resultado de la suma es ";
+		System.out.println(mesage1+(num1+num2));
 
-		System.out.println("El resultado de la resta es "+(num1-num2));
+		String msg2 = "El resultado de la resta es ";
+		System.out.println(msg2+(num1-num2));
 
-		System.out.println("El resultado de la multiplicación es "+(num1*num2));
+		String msg3 = "El resultado de la multiplicaciÃ³n es ";
+		System.out.println(msg3+(num1*num2));
 
-		System.out.println("El resultado de la división es "+(num1/num2));
+		String msg4 = "El resultado de la divisiÃ³n es ";
+		System.out.println(msg4+(num1/num2));
+
 	}
 }
