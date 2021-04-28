@@ -15,10 +15,11 @@ public class BarrosoIsmaelApp {
 		String msg2 = "El resultado de la resta es ";
 		System.out.println(msg2+(num1-num2));
 
-		String msg3 = "El resultado de la multiplicación es ";
+		String msg3 = "El resultado de la multiplicaciÃ³n es ";
 		System.out.println(msg3+(num1*num2));
 
-		String msg4 = "El resultado de la división es ";
+		String msg4 = "El resultado de la divisiÃ³n es ";
 		System.out.println(msg4+(num1/num2));
+
 	}
 }
