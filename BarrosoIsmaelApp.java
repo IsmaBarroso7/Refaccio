@@ -7,7 +7,7 @@ public class BarrosoIsmaelApp {
 	public static void main(String[] args) {
 
 		//Declaramos las variables
-		int num1=PRIMER;
+		int num1 = extracted();
 		int num2=SEGON;
 
 		/*Realizamos las operaciones.
@@ -27,5 +27,10 @@ public class BarrosoIsmaelApp {
 		
 
 		System.out.println("El resultado de la división es " + (num1/num2));
+	}
+
+	private static int extracted() {
+		int num1=PRIMER;
+		return num1;
 	}
 }
